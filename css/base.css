@@ -1,0 +1,56 @@
+body {
+  background: #fafafa;
+  font-size: 22px;
+  font-family: "Founders Grotesk mono";
+}
+
+#notepad {
+  padding-bottom: 7rem;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+footer {
+  background: #fafafa;
+  padding: 0;
+  z-index: 99;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 72px;
+  text-align: center;
+  /*box-shadow: 0 -1px 2px #ccc;*/
+}
+
+#note {
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  border: none;
+  background: #ecf0f1;
+  padding: 10px;
+  font-family: "Founders Grotesk mono";
+  font-size: 22px;
+  outline: none;
+  min-height: 40px;
+  resize: none;
+}
+  textarea:focus{
+    height: 160px;
+  }
+
+.submit-textarea {
+  position: absolute;
+  right: 0;
+  margin: 10px;
+  border: none;
+  padding: 5px;
+  background: none;
+}
+
+time {
+  cursor: pointer;
+}
